@@ -40,3 +40,9 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT K0, c16
+FROM tbl1
+WHERE substr(c16, 1, 1) = K0; 
+--substr(c16, 1, 1) extrae la primera letra de c16
+-- 1: La posición inicial desde donde se empieza a extraer (1 significa el primer carácter).
+-- 1: La cantidad de caracteres a extraer.
